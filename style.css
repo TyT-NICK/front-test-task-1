@@ -344,7 +344,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -475,12 +474,12 @@ a {
     overflow: hidden;
   }
   .sidenav.shown .sidenav__item {
-    gap: 15px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .sidenav.shown .sidenav__item li {
+    margin-left: 15px;
     width: auto;
   }
   .sidenav.shown .logo__name {
@@ -535,6 +534,9 @@ a {
     grid-column: 1 / 1;
     -webkit-transform: translate(0);
             transform: translate(0);
+  }
+  .sidenav__item li {
+    margin-left: 15px;
   }
   .sidenav__trigger {
     display: none;
