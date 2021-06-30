@@ -1,13 +1,123 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Sibdev: Адаптивный дизайн</title>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./resources/scripts/script.js" defer></script>
+    <script src="./resources/scripts/sidenav.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Развлечения</h1>
+      <div class="input header__search">
+        <input type="text" placeholder="Какой магизин вам нужен?" />
+      </div>
+    </header>
+    <main class="content">
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/vine.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Пробка на Мира</h2>
+          <h3 class="coupon__description">Вечер на двоих</h3>
+          <p class="coupon__offer">60%</p>
+          <p class="coupon__offer-description">скидка</p>
+        </div>
+      </div>
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/beer.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Кино и немцы</h2>
+          <h3 class="coupon__description">Бесплатный бокал пива</h3>
+          <p class="coupon__offer">варвар</p>
+          <p class="coupon__offer-description">промокод</p>
+        </div>
+      </div>
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/cake.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Valery Cakes</h2>
+          <h3 class="coupon__description">Торт</h3>
+          <p class="coupon__offer">30%</p>
+          <p class="coupon__offer-description">скидка</p>
+        </div>
+      </div>
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/vine.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Пробка на Мира</h2>
+          <h3 class="coupon__description">Вечер на двоих</h3>
+          <p class="coupon__offer">60%</p>
+          <p class="coupon__offer-description">скидка</p>
+        </div>
+      </div>
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/beer.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Кино и немцы</h2>
+          <h3 class="coupon__description">Бесплатный бокал пива</h3>
+          <p class="coupon__offer">варвар</p>
+          <p class="coupon__offer-description">промокод</p>
+        </div>
+      </div>
+      <div class="coupon">
+        <div class="coupon__content clipped">
+          <div class="coupon__img">
+            <img src="./resources/img/cake.png" alt="card image" />
+          </div>
+          <h2 class="coupon__title">Valery Cakes</h2>
+          <h3 class="coupon__description">Торт</h3>
+          <p class="coupon__offer">30%</p>
+          <p class="coupon__offer-description">скидка</p>
+        </div>
+      </div>
+    </main>
+
+    <nav id="sidenav" class="sidenav">
+      <span class="sidenav__trigger side-trigger">
+        <img src="./resources/img/Union.png" alt="union" />
+      </span>
+      <div class="logo">
+        <img src="./resources/img/logo.png" class="logo__img" alt="logo" />
+        <span class="logo__name">ВЕСО</span>
+      </div>
+      <ul>
+        <a href="/test" class="sidenav__item">
+          <span class="ico sidenav__ico">apps</span>
+          <li>Каталог</li>
+        </a>
+        <a href="/test" class="sidenav__item">
+          <span class="ico sidenav__ico">insights</span>
+          <li>Здоровье</li>
+        </a>
+        <a href="/test" class="sidenav__item">
+          <span class="ico sidenav__ico">favorite</span>
+          <li>Красота</li>
+        </a>
+        <a href="/test" class="sidenav__item active">
+          <span class="ico sidenav__ico">pets</span>
+          <li>Развлечения</li>
+        </a>
+        <a href="/test" class="sidenav__item">
+          <span class="ico sidenav__ico">directions_car</span>
+          <li>Авто</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="side-overlay"></div>
+  </body>
 </html>
