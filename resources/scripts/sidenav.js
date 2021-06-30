@@ -54,3 +54,6 @@ sideOverlay.addEventListener('click', closeSideNav)
 sideTrigger.addEventListener('click', (e) => {
   toggleSideNav(e)
 })
+
+// sideNav.addEventListener('focusin', openSideNav)
+// sideNav.addEventListener('focusout', closeSideNav)
